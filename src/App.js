@@ -1,22 +1,20 @@
 
 import './App.css';
+import Students from './components/Students';
 
 function App() {
+  const showStudents = true;
   return (
     <div className="App">
-      <header className="App-header">
+      {showStudents ? (
         <p>
-          Hello world! I am Eugene
+          <Students/>
+          <Students/>
+          <Students/>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      ) : (
+        <p>there are no Students</p>
+      )}
     </div>
   );
 }
