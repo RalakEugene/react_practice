@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './App.css';
+import './index.css';
 import Students from './components/Students';
 import { useState} from 'react';
 
