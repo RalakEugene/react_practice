@@ -8,9 +8,9 @@ function App() {
     <div className="App">
       {showStudents ? (
         <p>
-          <Students/>
-          <Students/>
-          <Students/>
+          <Students name="Gene" role="Front-end developer"/>
+          <Students name="Sid"/>
+          <Students name="Sam"/>
         </p>
       ) : (
         <p>there are no Students</p>
